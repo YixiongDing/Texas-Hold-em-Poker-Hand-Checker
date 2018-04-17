@@ -1,0 +1,7 @@
+Author: Yixiong Ding <yixiongd@student.unimelb.edu.au>
+Date: 30 September, 2017 
+The University of Melbourne 
+
+A Texas hold'em poker hand consists of five cards from a standard 52-card deck (without jokers). The ranks, in order of increasing value, are 2, 3, 4, 5, 6, 7, 8, 9, 10(T), Jack(J), Queen(Q), King(K), and Ace(A), and the suits are Clubs(C), Diamonds(D), Hearts(H), and Spades(S). Each card has a rank and suit, and all combinations are valid cards. The user enters 5 valid card names for each player, i.e. 2C 3D 4d 5s 6s, for one player and ac Tc jC kc qC Ac js 2c 8d 5H, for two players, etc. Notice the ranks and suits are not case sensitive. The program will print out the classifications of all the poker hands and choose the winner, or decide if the players draw. 
+
+There are two .java files of the program, Player.java and Poker.java. The Player class includes the constructor and other functional methods, and Poker includes the main method and other functional methods.
